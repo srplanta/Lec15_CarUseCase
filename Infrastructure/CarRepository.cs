@@ -16,6 +16,7 @@ namespace Infrastructure
         {
             if (index < 10)
             {
+                //Car car = new Car();    //cannot create instance of an abstract class
                 Car car = new Audi("2000 CC Engine", 4000M, "Audi", "Executive Class", "Red");
                 cars[index] = car;
                 Console.WriteLine("Car object has been created successfully!");
